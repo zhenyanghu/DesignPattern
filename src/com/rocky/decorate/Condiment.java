@@ -1,6 +1,9 @@
 package com.rocky.decorate;
 
-public abstract class Condiment {
+/**
+ * Created by Rocky on 2018-09-04.
+ */
+public abstract class Condiment extends Pancake {
 
 	public abstract String getDesc();
 	
