@@ -1,23 +1,20 @@
-package com.rocky.decorate;
+package com.rocky.decorator;
 
 /**
  * Created by Rocky on 2018-09-04.
  */
-public class MeatFloss extends Condiment {
-
-	private Pancake pancake;
+public class Cucumber extends Condiment {
 	
-	public MeatFloss(Pancake pancake) {
+	public Cucumber(Pancake pancake) {
 		this.pancake = pancake;
 	}
 	
 	@Override
 	public String getDesc() {
-		return pancake.getDesc();
+		return pancake.getDesc() + "+黄瓜丝";
 	}
 
 	public double price() {
 		return pancake.price() + 1;
 	}
-
 }

@@ -1,11 +1,9 @@
-package com.rocky.decorate;
+package com.rocky.decorator;
 
 /**
  * Created by Rocky on 2018-09-04.
  */
 public class FiredEgg extends Condiment {
-
-	private Pancake pancake;
 	
 	public FiredEgg(Pancake pancake) {
 		this.pancake = pancake;
