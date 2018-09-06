@@ -1,4 +1,4 @@
-package observer;
+package com.rocky.observer;
 
 public class CurrentConditionDisplay implements Observer, DisplayElement {
 

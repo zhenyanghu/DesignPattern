@@ -1,4 +1,4 @@
-package observer.javabuildin;
+package com.rocky.observer.avabuildin;
 
 import java.util.Observable;
 

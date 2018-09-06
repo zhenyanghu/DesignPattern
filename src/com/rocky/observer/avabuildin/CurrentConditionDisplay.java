@@ -1,9 +1,9 @@
-package observer.javabuildin;
+package com.rocky.observer.avabuildin;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import observer.DisplayElement;
+import com.rocky.observer.DisplayElement;
 
 public class CurrentConditionDisplay implements Observer, DisplayElement {
 

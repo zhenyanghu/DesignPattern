@@ -1,4 +1,4 @@
-package observer.otherobserver;
+package com.rocky.observer.otherobserver;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package observer;
+package com.rocky.observer;
 
 import java.util.ArrayList;
 

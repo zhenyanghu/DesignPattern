@@ -1,4 +1,4 @@
-package observer;
+package com.rocky.observer;
 
 public interface Observer {
 
