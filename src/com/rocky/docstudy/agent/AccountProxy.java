@@ -5,23 +5,23 @@ package com.rocky.docstudy.agent;
  */
 public class AccountProxy implements Account {
 
-	private Account account;
+	private AccountImpl accountImpl;
 	
-	public AccountProxy(Account account) {
-		this.account = account;
+	public AccountProxy(AccountImpl accountImpl) {
+		this.accountImpl = accountImpl;
 	}
 	
 	@Override
 	public void queryAccount() {
 		System.out.println("处理业务之前...");
-		account.queryAccount();
+		accountImpl.queryAccount();
 		System.out.println("处理业务之后...");
 	}
 
 	@Override
 	public void updateAccount() {
 		System.out.println("处理业务之前...");
-		account.updateAccount();
+		accountImpl.updateAccount();
 		System.out.println("处理业务之后...");
 	}
 
